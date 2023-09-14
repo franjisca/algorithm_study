@@ -1,15 +1,7 @@
 package com.example.algorithm.greedy;
 
-<<<<<<< HEAD
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Scanner;
-import java.util.StringTokenizer;
-=======
 import java.io.IOException;
 import java.util.Scanner;
->>>>>>> f477cb0 (그리디 - 동전 개수의 최솟값 구하기)
 
 public class 동전_개수_최솟값_구하기 {
 
