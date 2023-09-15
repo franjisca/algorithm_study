@@ -19,24 +19,19 @@ public class 최솟값만드는괄호배치찾기 {
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        String data = br.readLine();
-
-        String[] arr = data.split("-");
-
+        String[] arr = br.readLine().split("-");
 
         int answer = 0;
 
         for(int i=0; i<arr.length; i++){
-/*            if(i==0){
-                answer += mySum(arr[i]);
-            }
+            /*
+            if(i==0) answer += mySum(arr[i]);
             answer -= mySum(arr[i]);*/
 
             answer = i == 0 ? answer + mySum(arr[i]) : answer - mySum(arr[i]);
         }
 
         System.out.println(answer);
-
 
     }
 
