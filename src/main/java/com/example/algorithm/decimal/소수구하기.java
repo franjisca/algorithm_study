@@ -18,7 +18,7 @@ public class 소수구하기 {
 
         int[] arr = new int[N+1];
 
-        for(int i=1; i<arr.length; i++){
+        for(int i=2; i<arr.length; i++){
             arr[i] = i;
         }
 
