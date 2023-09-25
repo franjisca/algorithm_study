@@ -33,6 +33,7 @@ public class 집합표현하기 {
 
         for(int i=0; i<m; i++){
             String[] tempArr = br.readLine().split(" ");
+
             int fir = Integer.parseInt(tempArr[0]);
             int start = Integer.parseInt(tempArr[1]);
             int end = Integer.parseInt(tempArr[2]);
