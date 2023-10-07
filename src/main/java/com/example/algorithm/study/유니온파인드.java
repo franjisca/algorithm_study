@@ -1,4 +1,4 @@
-package com.example.study;
+package com.example.algorithm.study;
 
 public class 유니온파인드 {
 
