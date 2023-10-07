@@ -1,4 +1,4 @@
-package com.example.combination;
+package com.example.algorithm.combination;
 
 import java.io.BufferedReader;
 import java.io.IOException;
