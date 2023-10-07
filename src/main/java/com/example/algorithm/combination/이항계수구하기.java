@@ -24,7 +24,6 @@ public class 이항계수구하기 {
         //dp 배열 선언
         int[][] D = new int[fir+1][fir+1];
 
-
         for(int i=0; i<=fir; i++){
             D[i][i] = 1;
             D[i][0] = 1;
